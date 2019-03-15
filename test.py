@@ -16,8 +16,8 @@ from ctp_api import CtpGateway
 brokerID = "9999"                                 #经纪商代码
 mdAddress = 'tcp://180.168.146.187:10011'         #行情服务器地址
 tdAddress = "tcp://180.168.146.187:10001"         #交易服务器地址
-userID = "124538"                                 #期货账号
-password = "123456abc"                            #密码
+userID = "******"                                 #期货账号 simnow模拟账户和实盘账号都可以
+password = "*********"                            #密码
 #初始化与连接
 api = CtpGateway(userID, password, brokerID, tdAddress, mdAddress)
 api.connect()
